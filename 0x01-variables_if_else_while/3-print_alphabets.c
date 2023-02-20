@@ -7,14 +7,14 @@
 */
 int main(void)
 {
-char l='a';
-char L='A';
-while(l <= 'z')
+char l = 'a';
+char L = 'A';
+while (l <= 'z')
 {
 putchar(l);
 ++l;
 }
-while(L <= 'Z')
+while (L <= 'Z')
 {
 putchar(L);
 ++L;
