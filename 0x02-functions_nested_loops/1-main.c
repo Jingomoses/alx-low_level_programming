@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+* main - main function initialised
+* Description: 'the alphabet game'
+* Return: Always 0 (success)
+*/
 int main(void)
 {
-    print_alphabet();
-    return (0);
+print_alphabet();
+return (0);
 }
