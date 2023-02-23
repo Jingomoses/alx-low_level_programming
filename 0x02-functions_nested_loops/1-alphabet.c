@@ -1,14 +1,13 @@
 #include "main.h"
-
 /**
- * print alphabet - the alphabet game
- * Return: void
- */
-
+* main - main function initialised
+* description - 'the alphabet game'
+* Return: Always 0 (success)
+*/
 void print_alphabet(void)
 {
 char nn = 'a';
-while(nn <= 'z')
+while (nn <= 'z')
 {
 _putchar(nn);
 ++nn;
