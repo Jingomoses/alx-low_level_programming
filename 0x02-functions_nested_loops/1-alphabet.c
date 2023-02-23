@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* main - main function initialised
-* description - 'the alphabet game'
+* print_alphabet - prints the alphabet
 * Return: Always 0 (success)
 */
+
 void print_alphabet(void)
 {
 char nn = 'a';
